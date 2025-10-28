@@ -52,51 +52,6 @@
 .project-card.open .project-extra {
   display: block;
 }
-</style><style data-injected="projects-readmore-anim">
-/* Animated dropdown for project scope */
-.project-extra {
-  overflow: hidden;
-  max-height: 0;
-  opacity: 0;
-  transform: translateY(-4px);
-  transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
-  will-change: max-height, opacity, transform;
-}
-.project-card.open .project-extra {
-  opacity: 1;
-  transform: translateY(0);
-}
-</style><style data-injected="projects-readmore-chevron">
-/* Chevron icon for Read More button */
-.read-more-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.read-more-btn .chevron {
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-.project-card.open .read-more-btn .chevron {
-  transform: rotate(180deg);
-}
-</style><style data-injected="projects-readmore-anim-2">
-/* Ensure masonry items reflow correctly and content isn't clipped */
-.portfolio-item, .portfolio-content, .card {
-  overflow: visible;
-}
-/* Animated dropdown (enhanced) */
-.project-extra {
-  overflow: hidden;
-  max-height: 0;
-  opacity: 0;
-  transform: translateY(-6px);
-  transition: max-height 0.45s ease, opacity 0.3s ease, transform 0.3s ease;
-}
-.project-card.open .project-extra {
-  opacity: 1;
-  transform: translateY(0);
-}
 </style></head>
 <body>
 <!-- ======= Header ======= -->
@@ -669,136 +624,163 @@ erection, delivering robust and compliant steel structures.
 </ul>
 <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 <div class="col-lg-4 col-md-6 portfolio-item filter-rubber-lining filter-structural-steel-fabrication-welding">
-<div class="card portfolio-content h-100 project-card">
+<div class="card portfolio-content h-100">
 <img alt="Evander Gold Mine Lowered CIL Tank Structure" class="card-img-top" src="assets/img/projects/Evander Gold Mine Lowered CIL Tank Structure.png"/>
 <div class="card-body">
 <h5 class="card-title">
                       Evander Gold Mine Lowered CIL Tank Structure
                     </h5>
-<div class="project-extra" style="display:none; max-height:0;"><div class="project-extra-inner"><strong>Scope: </strong><span>We performed a structural and corrosion‑protection upgrade to a lowered
+<p class="card-text">
+<span style="font-weight: bold">scope:</span> We performed a structural and corrosion‑protection upgrade to a lowered
 carbon‑in‑leach tank. Tasks included structural assessment, surface preparation and coating
 application. The team evaluated the integrity of the tank shell and support beams, removed
 degraded coatings, repaired corrosion damage and applied a high‑build epoxy system. This
-upgrade increased the tank’s service life and ensured compliance with plant safety standards.</span></div></div><button class="read-more-btn">Read more<span aria-hidden="true" class="chevron"><svg fill="none" height="14" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></span></button></div>
+upgrade increased the tank’s service life and ensured compliance with plant safety standards.
+                    </p>
+</div>
 </div>
 </div>
 <!--  Start of projects item 2 -->
 <div class="col-lg-4 col-md-6 portfolio-item filter-rubber-lining filter-structural-steel-fabrication-welding">
-<div class="card portfolio-content h-100 project-card">
-<img alt="Air Liquide Antennastructural Frame Design" class="card-img-top" src="assets/img/projects/dam-5422929_1280.jpg"/>
+<div class="card portfolio-content h-100">
+<img alt="Air Liquide Antennastructural Frame Design" class="card-img-top" src="assets/img/projects/Air Liquide Antennastructural Frame Design.png"/>
 <div class="card-body">
 <h5 class="card-title">
                       GOVAN MBEKI MUNICIPALITY – WATER
 INFRASTRUCTURE REHABILITATION
                     </h5>
-<div class="project-extra" style="display:none; max-height:0;"><div class="project-extra-inner"><strong>Scope: </strong><span>Rehabilitated aging water reservoirs and
+<p class="card-text">
+<span style="font-weight: bold">scope:</span>Rehabilitated aging water reservoirs and
 pipeline infrastructure to support local service delivery. The scope included structural
 inspections, concrete repairs, replacement of corroded reinforcing steel and installation of new
 liners. In parallel, pipelines were upgraded with corrosion-resistant coatings and leak detection
 systems. These upgrades align with South Africa’s push for public‑private partnerships and
-infrastructure development, ensuring reliable water supply for the municipality.</span></div></div><button class="read-more-btn">Read more<span aria-hidden="true" class="chevron"><svg fill="none" height="14" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></span></button></div>
+infrastructure development, ensuring reliable water supply for the municipality.
+                    </p>
+</div>
 </div>
 </div>
 <!--  End of projects item 2 -->
 <div class="col-lg-4 col-md-6 portfolio-item filter-rubber-lining">
-<div class="card portfolio-content h-100 project-card">
+<div class="card portfolio-content h-100">
 <img alt="Air Liquide Antennastructural Frame Design" class="card-img-top" src="assets/img/projects/Air Liquide Antennastructural Frame Design.png"/>
 <div class="card-body">
 <h5 class="card-title">
                      ELIKHULU CIL TANK RUBBER LINING
                     </h5>
-<div class="project-extra" style="display:none; max-height:0;"><div class="project-extra-inner"><strong>Scope: </strong><span>Performed a complete refurbishment of a carbon-in-leach (CIL) tank at Elikhulu. The
+<p class="card-text">
+<span style="font-weight: bold">scope:</span>Performed a complete refurbishment of a carbon-in-leach (CIL) tank at Elikhulu. The
 scope included abrasive blasting to SA 2.5 to remove old coatings, soluble-salt testing, and
 profile checks. After surface preparation, we applied a multi-layer natural rubber lining
 designed to withstand cyanide-rich slurry, using specialised adhesives and vulcanisation. Final
 quality assurance involved spark testing, adhesion pull-off tests and thickness mapping to verify
-integrity and longevity.</span></div></div><button class="read-more-btn">Read more<span aria-hidden="true" class="chevron"><svg fill="none" height="14" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></span></button></div>
+integrity and longevity.
+                    </p>
+</div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 portfolio-item filter-structural-inspection">
-<div class="card portfolio-content h-100 project-card">
-<img alt="Air Liquide Antennastructural Frame Design" class="card-img-top" src="assets/img/projects/pressurized-water-pipe-509871_1280.jpg"/>
+<div class="card portfolio-content h-100">
+<img alt="Air Liquide Antennastructural Frame Design" class="card-img-top" src="assets/img/projects/Air Liquide Antennastructural Frame Design.png"/>
 <div class="card-body">
 <h5 class="card-title">
                      ELIKHULU SLURRY PIPELINES &amp; LAUNDERS
                     </h5>
-<div class="project-extra" style="display:none; max-height:0;"><div class="project-extra-inner"><strong>Scope: </strong><span>Protected Elikhulu’s slurry transport system. We dismantled existing
+<p class="card-text">
+<span style="font-weight: bold">scope:</span>Protected Elikhulu’s slurry transport system. We dismantled existing
 pipelines and launders, prepared the internal surfaces with grit blasting and solvent cleaning
 and installed abrasion-resistant rubber linings with dovetail joints at flange areas to prevent
 delamination. The work covered over 1 km of pipework and multiple launders feeding to
 thickeners. Holiday testing and hydrostatic pressure tests ensured there were no defects or leaks
-before recommissioning.</span></div></div><button class="read-more-btn">Read more<span aria-hidden="true" class="chevron"><svg fill="none" height="14" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></span></button></div>
+before recommissioning.
+                    </p>
+</div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 portfolio-item filter-rubber-lining">
-<div class="card portfolio-content h-100 project-card">
+<div class="card portfolio-content h-100">
 <img alt="Evander Gold Mine Workshop Building Structural Inspection" class="card-img-top" src="assets/img/projects/Evander Gold Mine Workshop Building Structural Inspection.png"/>
 <div class="card-body">
 <h5 class="card-title">
                       ELIKHULU THICKENER UNDERFLOW SUMPS &amp; PUMP HOUSINGS
                     </h5>
-<div class="project-extra" style="display:none; max-height:0;"><div class="project-extra-inner"><strong>Scope: </strong><span>Applied hard-rubber linings to the underflow sumps, feed wells and pump
+<p class="card-text">
+<span style="font-weight: bold">scope:</span> Applied hard-rubber linings to the underflow sumps, feed wells and pump
 casings associated with Elikhulu’s thickeners. We performed high-pressure water jetting to
 remove scale and corrosion, followed by grit blasting and priming. Linings were custom‑fitted to
 complex geometries and cured on site using temperature-controlled methods. The use of
 elastomeric linings has significantly increased equipment life in high-abrasion zones and
-reduced maintenance downtime.</span></div></div><button class="read-more-btn">Read more<span aria-hidden="true" class="chevron"><svg fill="none" height="14" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></span></button></div>
+reduced maintenance downtime.
+                    </p>
+</div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 portfolio-item filter-structural-steel-fabrication-welding">
-<div class="card portfolio-content h-100 project-card">
+<div class="card portfolio-content h-100">
 <img alt="Elikhulu Tank Steel Platform" class="card-img-top" src="assets/img/projects/Elikhulu Tank Steel Platform.png"/>
 <div class="card-body">
 <h5 class="card-title">ELIKHULU PREGNANT SOLUTION AND OVERFLOW TANKS</h5>
-<div class="project-extra" style="display:none; max-height:0;"><div class="project-extra-inner"><strong>Scope: </strong><span>Refurbished and lined the pregnant-solution tanks and overflow piping at Elikhulu. The
+<p class="card-text">
+<span style="font-weight: bold">scope:</span> Refurbished and lined the pregnant-solution tanks and overflow piping at Elikhulu. The
 project involved internal scaffolding, blasting to achieve a near‑white metal finish and
 installation of bromobutyl rubber linings resistant to cyanide-rich solutions. Welds and seams
 were carefully sealed, and spark testing ensured a continuous lining. External surfaces received
-a three‑coat epoxy system to comply with corrosivity category C5 coatings.</span></div></div><button class="read-more-btn">Read more<span aria-hidden="true" class="chevron"><svg fill="none" height="14" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></span></button></div>
+a three‑coat epoxy system to comply with corrosivity category C5 coatings.
+                    </p>
+</div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 portfolio-item filter-civil-works">
-<div class="card portfolio-content h-100 project-card">
+<div class="card portfolio-content h-100">
 <img alt="Sasol New Pipeline Unit Rubber Lining" class="card-img-top" src="assets/img/projects/Sasol New Pipeline Unit Rubber Lining.png"/>
 <div class="card-body">
 <h5 class="card-title">
                       Sasol New Pipeline Unit Rubber Lining
                     </h5>
-<div class="project-extra" style="display:none; max-height:0;"><div class="project-extra-inner"><strong>Scope: </strong><span>protected a new pipeline unit carrying aggressive chemicals. Our team
+<p class="card-text">
+<span style="font-weight: bold">scope:</span> protected a new pipeline unit carrying aggressive chemicals. Our team
 performed surface preparation, selected appropriate lining materials and installed
 chemical‑resistant rubber linings inside pipelines, elbows and fittings. Adhesion promoters and
 tie‑coats were applied to ensure a robust bond, and spark testing was conducted to detect
 pinholes. The project extended the life of the pipeline system and reduced the risk of leaks and
-contamination.</span></div></div><button class="read-more-btn">Read more<span aria-hidden="true" class="chevron"><svg fill="none" height="14" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></span></button></div>
+contamination.
+                    </p>
+</div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 portfolio-item filter-civil-works">
-<div class="card portfolio-content h-100 project-card">
+<div class="card portfolio-content h-100">
 <img alt="Eskom Cooling Towers Planned Maintenance" class="card-img-top" src="assets/img/projects/Eskom Cooling Towers Planned Maintenance.png"/>
 <div class="card-body">
 <h5 class="card-title">
                       Eskom Cooling Towers Planned Maintenance
                     </h5>
-<div class="project-extra" style="display:none; max-height:0;"><div class="project-extra-inner"><strong>Scope: </strong><span>provided safe access and maintenance for cooling towers at a power
+<p class="card-text">
+<span style="font-weight: bold">scope:</span> provided safe access and maintenance for cooling towers at a power
 station. We designed and erected modular scaffolding systems compliant with SANS 10085‑1,
 enabling inspection of tower internals and drift eliminators. The scope included dismantling and
 reinstallation of fill pack components, concrete repairs to tower shells and application of
 protective coatings. All work was scheduled during a short outage to minimise impact on power
-generation.</span></div></div><button class="read-more-btn">Read more<span aria-hidden="true" class="chevron"><svg fill="none" height="14" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></span></button></div>
+generation.
+                    </p>
+</div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 portfolio-item filter-civil-works">
-<div class="card portfolio-content h-100 project-card">
-<img alt="Air Liquide Antennastructural Frame Design" class="card-img-top" src="assets/img/projects/refinery-3613526_1280.jpg"/>
+<div class="card portfolio-content h-100">
+<img alt="Air Liquide Antennastructural Frame Design" class="card-img-top" src="assets/img/projects/Air Liquide Antennastructural Frame Design.png"/>
 <div class="card-body">
 <h5 class="card-title">
                       Air Liquide Antenna Structural Frame Design
                     </h5>
-<div class="project-extra" style="display:none; max-height:0;"><div class="project-extra-inner"><strong>Scope: </strong><span>designed and fabricated a new steel frame to support antennas at an Air Liquide
+<p class="card-text">
+<span style="font-weight: bold">scope:</span> designed and fabricated a new steel frame to support antennas at an Air Liquide
 facility. The scope involved structural analysis, detailed design in accordance with SANS 10162‑1,
 fabrication of steel sections and on‑site installation. Galvanising (SANS 121) and a three‑coat
 paint system were applied for corrosion protection. The project delivered a stable and
-long‑lasting structure for critical communication equipment.</span></div></div><button class="read-more-btn">Read more<span aria-hidden="true" class="chevron"><svg fill="none" height="14" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></span></button></div>
+long‑lasting structure for critical communication equipment.
+                    </p>
+</div>
 </div>
 </div>
 </div>
@@ -981,115 +963,13 @@ long‑lasting structure for critical communication equipment.</span></div></div
 <!-- Client logo carousel JS File -->
 <script src="assets/js/client-logo-carousel.js"></script>
 <script data-injected="projects-readmore">
-(function(){
-  const container = document.querySelector('.portfolio-container') || document.querySelector('.portfolio-isotope');
-  function relayout(){
-    // If Isotope is present, ask it to layout; otherwise use resize/AOS refresh
-    try {
-      if (window.Isotope && container) {
-        const iso = Isotope.data(container) || container.isotope || null;
-        if (iso && typeof iso.layout === 'function') {
-          iso.layout();
-          return;
-        }
-        // Some themes attach jQuery plugin
-        if (window.jQuery && jQuery(container).isotope) {
-          jQuery(container).isotope('layout');
-          return;
-        }
-      }
-    } catch(e){}
-    // Fallbacks
-    window.dispatchEvent(new Event('resize'));
-    if (window.AOS && typeof AOS.refreshHard === 'function') AOS.refreshHard();
-    else if (window.AOS && typeof AOS.refresh === 'function') AOS.refresh();
-  }
-
-  function onExpandTransitionEnd(extra, card){
-    // After expand completes, set max-height to none so content changes don't cause clipping
-    if (card.classList.contains('open')) {
-      extra.style.maxHeight = 'none';
-    }
-    relayout();
-  }
-
-  function collapseCard(card){
-    const extra = card.querySelector('.project-extra');
-    const btn = card.querySelector('.read-more-btn');
-    if (!extra) return;
-    // If max-height is none (after expand), set it to current height to enable transition
-    if (getComputedStyle(extra).maxHeight === 'none') {
-      extra.style.maxHeight = extra.scrollHeight + 'px';
-    }
-    requestAnimationFrame(() => {
-      extra.style.maxHeight = '0px';
-      extra.addEventListener('transitionend', function handler(){
-        if (!card.classList.contains('open')) {
-          extra.style.display = 'none';
-          // keep max-height at 0 for collapsed state
-        }
-        extra.removeEventListener('transitionend', handler);
-        relayout();
-      });
-    });
-    if (btn) btn.setAttribute('aria-expanded','false');
-    card.classList.remove('open');
-  }
-
-  function expandCard(card){
-    const extra = card.querySelector('.project-extra');
-    const btn = card.querySelector('.read-more-btn');
-    if (!extra) return;
-    // Prepare for transition
-    extra.style.display = 'block';
-    extra.style.maxHeight = '0px'; // ensure starting point
-    requestAnimationFrame(() => {
-      extra.style.maxHeight = extra.scrollHeight + 'px';
-      extra.addEventListener('transitionend', function handler(e){
-        if (e.propertyName === 'max-height') {
-          onExpandTransitionEnd(extra, card);
-          extra.removeEventListener('transitionend', handler);
-        }
-      });
-    });
-    if (btn) btn.setAttribute('aria-expanded','true');
-    card.classList.add('open');
-  }
-
-  // Attach handlers
-  document.querySelectorAll('.read-more-btn').forEach(btn => {
+document.querySelectorAll('.read-more-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
     const card = btn.closest('.project-card');
-    const extra = card ? card.querySelector('.project-extra') : null;
-
-    // Init ARIA
-    btn.setAttribute('aria-expanded', card && card.classList.contains('open') ? 'true' : 'false');
-    if (extra && !extra.id) extra.id = 'extra-' + Math.random().toString(36).slice(2,8);
-    btn.setAttribute('aria-controls', extra ? extra.id : '');
-
-    // Initial state
-    if (extra) {
-      if (!card.classList.contains('open')) {
-        extra.style.display = 'none';
-        extra.style.maxHeight = '0px';
-      } else {
-        extra.style.display = 'block';
-        // immediately set to none so layout is natural
-        extra.style.maxHeight = 'none';
-      }
+    if (card) {
+      card.classList.toggle('open');
     }
-
-    btn.addEventListener('click', () => {
-      if (!card || !extra) return;
-      // accordion: close others
-      document.querySelectorAll('.project-card.open').forEach(c => { if (c !== card) collapseCard(c); });
-      if (card.classList.contains('open')) collapseCard(card); else expandCard(card);
-    });
   });
-
-  // Also relayout when images inside extras load (just in case)
-  document.querySelectorAll('.project-extra img').forEach(img => {
-    img.addEventListener('load', relayout);
-  });
-})();
+});
 </script></body>
 </html>

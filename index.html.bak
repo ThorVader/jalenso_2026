@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="msvalidate.01" content="F4641C66BED11D75455C3C46926B6FA1" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Jalenso</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!--Open Graph tags-->
+    <meta property="og:title" content="Jalenso Holdings" />
+    <meta property="og:description" content="Welcome to Jalenso Holdings." />
+    <meta property="og:image" content="./assets/img/og-image.png" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/slick/infinite-slider.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="#" class="logo d-flex align-items-center">
+          <img src="assets/img/logo.png" alt="" />
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li class="dropdown">
+              <a href="#about"
+                ><span>About Us</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#mission">Our Mission</a></li>
+                <li><a href="#vision">Our Vision</a></li>
+                <li><a href="#values">Our Values</a></li>
+              </ul>
+            </li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li class="dropdown">
+              <a href="#">
+                <span>Downloads</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i>
+              </a>
+              <ul>
+                <li>
+                  <a
+                    href="./assets/pdf/Jalenso Business Profile 2025-2026.pdf"
+                    target="_blank"
+                    title="Jalenso Business Profile 2025-2026"
+                    >Company Profile</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero">
+      <div class="info d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2 data-aos="fade-down">Hi <span>there</span></h2>
+              <p style="text-align: justify" data-aos="fade-up">
+               Jalenso Holdings is poised to shape the future of engineering and
+construction across South Africa. Entering 2025 and 2026, our ambition is to
+lead the industry through innovation, sustainability and community
+empowerment. We are expanding our capabilities across civil works,
+structural engineering, electrical installation and mechanical fabrication. By
+investing in digital technologies, advanced materials and skilled people, we
+deliver world-class solutions. Together with our partners, we build resilient
+infrastructure that supports economic growth and improves lives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="hero-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <div
+          class="carousel-item active"
+          style="
+            background-image: url(assets/img/hero-carousel/hero-carousel-1.png);
+          "
+        ></div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: url(assets/img/hero-carousel/hero-carousel-2.png);
+          "
+        ></div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: url(assets/img/hero-carousel/hero-carousel-3.png);
+          "
+        ></div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: url(assets/img/hero-carousel/hero-carousel-4.png);
+          "
+        ></div>
+
+        <a
+          class="carousel-control-prev"
+          href="#hero-carousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bi bi-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#hero-carousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bi bi-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <main id="main">
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row position-relative">
+            <div
+              class="col-lg-7 about-img"
+              style="background-image: url(assets/img/about.png)"
+            ></div>
+
+            <div class="col-lg-7">
+              <div class="our-story">
+                <h3>About Us</h3>
+                <p style="text-align: justify">
+                  Welcome to Jalenso Holdings, where innovation meets
+                  craftsmanship in the world of construction and consulting.
+                  Established in 2023, we embark on a journey to redefine the
+                  landscape of excellence in the built environment. At Jalenso,
+                  we don't just build structures; we create lasting impressions,
+                  turning visions into reality.
+                </p>
+
+                <p style="text-align: justify">
+                  Our foundation is built on a commitment to quality, integrity,
+                  and client satisfaction.With a team of seasoned professionals,
+                  we bring together a wealth of experience and a fresh
+                  perspective to every project. From concept to completion, we
+                  strive for excellence in every detail, ensuring that each
+                  undertaking reflects the unique vision and goals of our
+                  clients.<br />
+                  What sets us apart is our holistic approach to construction
+                  and consulting. We don't just construct buildings; we
+                  cultivate partnerships. Our team collaborates closely with
+                  clients, architects, and stakeholders to ensure a seamless
+                  process from the initial idea to the final brick laid. We
+                  believe that successful projects are born out of effective
+                  communication, transparency, and a shared dedication to
+                  success.
+                </p>
+
+                <p style="text-align: justify">
+                  In a rapidly evolving industry, we pride ourselves on staying
+                  ahead of the curve. Jalenso Holdings embraces cutting edge
+                  technologies and sustainable practices, delivering not just
+                  structures, but forward-thinking solutions that stand the test
+                  of time. Our commitment to innovation extends beyond the
+                  blueprint, as we continually explore new methodologies and
+                  materials to enhance the efficiency and sustainability of our
+                  projects.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
+
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="section-bg why-us">
+        <div class="container" data-aos="fade-up">
+          <div class="row justify-content-around gy-4">
+            <div
+              class="col-lg-6 img-bg"
+              style="background-image: url(assets/img/why-us.png)"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            ></div>
+
+            <div class="col-lg-5 d-flex flex-column justify-content-center">
+              <h3>Why Us</h3>
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <i class="bi bi-easel flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link">Innovation at the Core</a>
+                  </h4>
+                  <p style="text-align: justify">
+                    Jalenso Holdings is not just a construction and consulting
+                    firm; it's an innovation hub.Our commitment to merging
+                    proven construction practices with the latest technology sets
+                    us apart. When you choose Jalenso Holdings, you're selecting
+                    a partner dedicatedto pushing boundaries and delivering
+                    projects that redefine industry standards.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link"
+                      >Collaboration for Success</a
+                    >
+                  </h4>
+                  <p style="text-align: justify">
+                    Jalenso Holdings believes in the power of collaboration. We
+                    don't just build structures;we build lasting relationships.
+                    Our team works closely with clients, architects, and
+                    stakeholders, ensuring a harmonious blend of ideas. This
+                    collaborative spirit is the driving force behind successful
+                    projects, where diverse perspectives converge tocreate
+                    spaces that reflect purpose and vision.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link"
+                      >Client-Centric Approach</a
+                    >
+                  </h4>
+                  <p style="text-align: justify">
+                    What sets us apart is our unwavering commitment to our
+                    clients. We believe in open communication, transparency, and
+                    a collaborative approach throughout the entire project
+                    lifecycle. Your vision is our priority, and we go the extra
+                    mile to ensure that your expectations are not just met but
+                    exceeded. Our client-centric philosophy meansyou're not just
+                    a project; you're a valued partner in the creation of
+                    something exceptional.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Why Us Section -->
+
+      <!-- ======= Mission Section ======= -->
+      <section id="mission" class="mission">
+        <div class="container" data-aos="fade-up">
+          <div class="row justify-content-around gy-4">
+            <div
+              class="col-lg-6 img-bg"
+              style="background-image: url(assets/img/mission.png)"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            ></div>
+
+            <div class="col-lg-5 d-flex flex-column justify-content-center">
+              <h3> Mission</h3>
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+               <!-- <i class="bi bi-easel flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link">Sustainable Development</a >
+                  </h4>
+                  <p style="text-align: justify">
+                    Jalenso Holdings is dedicated to spearheading sustainable
+                    development in the construction industry. Our mission is to
+                    prioritize environmentally responsible practices, from the
+                    selection of materials to energy-efficient designs, aiming
+                    to minimize our ecological footprint. Through continuous
+                    research, innovation, and collaboration with stakeholders,
+                    we strive to set new benchmarks for sustainable
+                    construction, fostering a built environment that respects
+                    and preserves the natural world for future generations.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="200">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <!--<h4>
+                    <a href="" class="stretched-link">Community Empowerment</a>
+                  </h4>-->
+                  <p style="text-align: justify">
+                   Our mission is to deliver integrated engineering solutions across civil, structural, electrical and
+mechanical disciplines with uncompromising quality and safety. We are committed to
+environmental stewardship, incorporating sustainable practices and materials to maximise
+long‑term value for clients and communities. We dedicate ourselves to empowering local
+communities through skills development, inclusive employment and support for small suppliers. Our
+mission includes fostering partnerships that promote innovation, collaboration and continuous
+improvement across every project. We strive to maintain a zero‑harm culture by prioritising the
+health and safety of our workforce and stakeholders. Ultimately, we aim to be the preferred partner
+for clients seeking sustainable, community‑centric solutions that contribute to South Africa’s
+socio‑economic development.
+                  </p>
+                </div>
+              </div>
+              <!--<div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="200">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link">Community Empowerment</a>
+                  </h4>
+                  <p style="text-align: justify">
+                    Jalenso Holdings is on a mission to empower communities
+                    through thoughtful construction andconsulting services. Our
+                    mission is to actively engage with local communities,
+                    understanding their unique needs and aspirations. By
+                    prioritizing local employment, supporting community
+                    initiatives, and fostering inclusivity in our projects, we
+                    aim to create a positive social impact.Jalenso Holdings is
+                    committed to being a catalyst for community development,
+                    enriching the lives of those we serve through our
+                    construction endeavors.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Mission Section -->
+
+      <!-- ======= Vision Section ======= -->
+      <section id="vision" class="vision section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="row justify-content-around gy-4">
+            <div
+              class="col-lg-6 img-bg"
+              style="background-image: url(assets/img/vision.png)"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            ></div>
+
+            <div class="col-lg-5 d-flex flex-column justify-content-center">
+              <h3> Vision</h3>
+
+               <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="100">
+                <i class="bi bi-eye flex-shrink-0"></i>
+                <div>
+                 <!-- <h4>
+                    <a href="" class="stretched-link">Community Transformation</a>
+                  </h4>-->
+                  <p style="text-align: justify">
+                   Our vision is to build resilient infrastructure that meets current needs while anticipating the impacts
+of climate change and technological evolution. We aspire to lead the development of adaptive civil
+and structural solutions that evolve with environmental, economic and social conditions. We aim to
+catalyse community transformation by delivering projects that uplift local economies and create
+meaningful employment opportunities. Sustainability is central to our vision, embracing
+energy‑efficient designs and responsible resource management to minimise environmental impact.
+We seek to set the benchmark for engineering excellence in South Africa, balancing innovation with
+social responsibility to enhance quality of life. Ultimately, we envision leaving a legacy of
+infrastructure that serves present and future generations, fostering inclusive growth and prosperity.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+             <!--<div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="100">
+                <i class="bi bi-easel flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link">Community Transformation</a>
+                  </h4>
+                  <p style="text-align: justify">
+                    Jalenso Holdings envisions a future where our projects go
+                    beyond bricks and mortar to become catalysts for community
+                    transformation. We aspire to create spaces that not only
+                    meet the functional needs of the present but also contribute
+                    to the social and economic vibrancy of the communities we
+                    serve. Through thoughtful design, inclusive planning, and a
+                    commitment to community engagement, we see Jalenso Holdings
+                    playing a pivotal role in shaping neighborhoods that are
+                    thriving, connected, and full of life.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box --
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link">Adaptive Resilience</a>
+                  </h4>
+                  <p style="text-align: justify">
+                    Jalenso Holdings envisions a future where resilience is at
+                    the core of every project. We see ourselves leading the way
+                    in creating structures that adapt to the evolving needs of
+                    society, technology, and the environment. Our vision
+                    encompasses buildings that stand strong in the face of
+                    change, embracing flexibility and innovation. Jalenso
+                    Holdings aims to be a pioneer in constructing spaces that
+                    not only withstand the test of time but actively contribute
+                    to a resilient and dynamic future, where adaptability is
+                    key.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Vision Section -->
+
+      <!-- ======= Values Section ======= -->
+      <section id="values" class="values">
+        <div class="container" data-aos="fade-up">
+          <div class="row justify-content-around gy-4">
+            <div
+              class="col-lg-6 img-bg"
+              style="background-image: url(assets/img/values.png)"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            ></div>
+
+            <div class="col-lg-5 d-flex flex-column justify-content-center">
+              <h3>Values</h3>
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <i class="bi bi-easel flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link">Integrity</a>
+                  </h4>
+                  <p style="text-align: justify">
+                    At Jalenso Holdings, integrity is the foundation of everything we do. We maintain the highest ethical
+standards and are committed to transparency and honesty in all interactions with clients, partners,
+employees and communities. Our decisions and actions are guided by a strong moral compass,
+ensuring that every project is delivered with honesty and accountability. We believe that trust is
+earned through consistent, ethical conduct, and we work diligently to uphold this trust in every
+engagement.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link">Innovation</a>
+                  </h4>
+                  <p style="text-align: justify">
+                    We embrace a culture of continuous innovation, pushing the boundaries of traditional engineering
+and construction practices. Jalenso Holdings remains committed to adopting the latest technologies,
+sustainable materials and creative methodologies to improve project outcomes. By fostering an
+environment where new ideas thrive, we encourage our teams to explore cutting-edge solutions that
+drive efficiency, reduce environmental impact and enhance community benefits. Our dedication to
+innovation ensures that we remain at the forefront of industry advancements, setting benchmarks in
+quality and performance.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link">Safety Excellence</a>
+                  </h4>
+                  <p style="text-align: justify">
+                   The well-being of our employees, clients and the public is paramount. Jalenso Holdings is dedicated
+to maintaining the highest standards of safety across all our operations, adhering to South African
+National Standards and international best practices. We implement rigorous safety training
+programmes, continuously update our safety protocols and invest in advanced protective measures
+to mitigate risks. Our proactive approach to health and safety ensures that every project is executed
+with utmost care, reinforcing our commitment to zero harm and fostering a culture where safety is
+everyone’s responsibility.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link">Sustainability & Social Responsibility</a>
+                  </h4>
+                  <p style="text-align: justify">
+                    We recognise that our success is intertwined with the health of our environment and the prosperity of
+the communities in which we operate. Jalenso Holdings is committed to sustainable practices that
+minimise environmental impact, including the use of eco-friendly materials, energy-efficient designs
+and waste reduction strategies. We prioritise social responsibility by supporting local economies,
+investing in skills development and ensuring that our projects contribute positively to society. By
+integrating environmental stewardship and community upliftment into our operations, we strive to
+create enduring value that benefits both current and future generations.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Values Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Our Services</h2>
+          </div>
+
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-mountain-city"></i>
+                </div>
+                <h3>Rubber Lining & Corrosion Protection </h3>
+                <p style="text-align: justify">
+                 Surface preparation to SA 2.5 standards (ISO 8501‑1), followed by application of
+rubber linings (natural, hard rubber, bromobutyl) for tanks, chutes and pipelines,
+and protective coatings per ISO/SANS 12944 for harsh environments. This protects
+assets from acids, alkalis, brines, slurry and environmental degradation.
+                  <br />
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                </div>
+                <h3>CIVIL WORKS (DESIGN, BUILD & MAINTAIN)</h3>
+                <p style="text-align: justify">
+                 Comprehensive earthworks, concrete foundations, slabs, bund walls, platforms,
+roads and drainage systems, executed in accordance with SANS 2001 and SANS
+10100 standards. This service includes detailed design, construction and
+maintenance of industrial and mining civils.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-compass-drafting"></i>
+                </div>
+                <h3>ELECTRICAL WORKS & CABLE RACK SYSTEMS</h3>
+                <p style="text-align: justify">
+                  Installation of low‑voltage distribution boards, cable ladders, trays and trunking,
+earthing networks and instrumentation in compliance with SANS 10142‑1 and IEC
+61537. This service encompasses cable routing, segregation, thermal management
+and commissioning, ensuring safe and reliable electrical infrastructure.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-person-digging"></i>
+                </div>
+                <h3>STRUCTURAL STEEL FABRICATION & WELDING</h3>
+                <p style="text-align: justify">
+                  Design, fabrication and assembly of structural steelwork, handrails, gratings,
+platforms and modular skids, adhering to AWS D1.1 and SANS 10162‑1. Services
+include shop detailing, welding, trial assembly, galvanizing (SANS 121) and on‑site
+erection, delivering robust and compliant steel structures.
+                </p>
+              </div>
+            </div>
+
+           <!-- <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-pen-ruler"></i>
+                </div>
+                <h3>Consulting Engineering</h3>
+                <p style="text-align: justify">
+                  Leverage our expertise in consulting engineering to navigate
+                  the complexities of your projects. Our seasoned professionals
+                  provide insightful guidance, innovative solutions, and
+                  strategic planning to ensure the success of your engineering
+                  endeavors.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-trowel-bricks"></i>
+                </div>
+                <h3>Sandblasting</h3>
+                <p style="text-align: justify">
+                  Prepare surfaces for optimal treatment with our sandblasting
+                  services. We employ precision sandblasting techniques to
+                  remove contaminants, rust, and old coatings, creating a clean
+                  canvas for subsequent treatments or coatings.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Projects Section ======= -->
+      <section id="projects" class="projects">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Our Projects</h2>
+          </div>
+
+          <div
+            class="portfolio-isotope"
+            data-portfolio-filter="*"
+            data-portfolio-layout="masonry"
+            data-portfolio-sort="original-order"
+          >
+            <ul
+              class="portfolio-flters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-rubber-lining">
+                Rubber Lining & Corrosion Protection
+              </li>
+              <li data-filter=".filter-civil-works">
+               Civil Works (Design, Build & Maintain) 
+              </li>
+              <li data-filter=".filter-structural-steel-fabrication-welding">
+                Structural Steel Fabrication & Welding</li>
+            </ul>
+
+            <div
+              class="row gy-4 portfolio-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div
+                class="col-lg-4 col-md-6 portfolio-item filter-rubber-lining filter-structural-steel-fabrication-welding"
+              >
+                <div class="card portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/Evander Gold Mine Lowered CIL Tank Structure.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Evander Gold Mine Lowered CIL Tank Structure
+                    </h5>
+                    <p class="card-text">
+                      <span style="font-weight: bold">scope:</span> We performed a structural and corrosion‑protection upgrade to a lowered
+carbon‑in‑leach tank. Tasks included structural assessment, surface preparation and coating
+application. The team evaluated the integrity of the tank shell and support beams, removed
+degraded coatings, repaired corrosion damage and applied a high‑build epoxy system. This
+upgrade increased the tank’s service life and ensured compliance with plant safety standards.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!--  Start of projects item 2 -->
+
+               <div class="col-lg-4 col-md-6 portfolio-item filter-rubber-lining filter-structural-steel-fabrication-welding">
+                <div class="card portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/Air Liquide Antennastructural Frame Design.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      GOVAN MBEKI MUNICIPALITY – WATER
+INFRASTRUCTURE REHABILITATION
+                    </h5>
+                    <p class="card-text">
+                      <span style="font-weight: bold">scope:</span>Rehabilitated aging water reservoirs and
+pipeline infrastructure to support local service delivery. The scope included structural
+inspections, concrete repairs, replacement of corroded reinforcing steel and installation of new
+liners. In parallel, pipelines were upgraded with corrosion-resistant coatings and leak detection
+systems. These upgrades align with South Africa’s push for public‑private partnerships and
+infrastructure development, ensuring reliable water supply for the municipality.
+                    </p>
+                  </div>
+                </div>
+              </div>
+<!--  End of projects item 2 -->
+
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-rubber-lining">
+                <div class="card portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/Air Liquide Antennastructural Frame Design.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                     ELIKHULU CIL TANK RUBBER LINING
+                    </h5>
+                    <p class="card-text">
+                      <span style="font-weight: bold">scope:</span>Performed a complete refurbishment of a carbon-in-leach (CIL) tank at Elikhulu. The
+scope included abrasive blasting to SA 2.5 to remove old coatings, soluble-salt testing, and
+profile checks. After surface preparation, we applied a multi-layer natural rubber lining
+designed to withstand cyanide-rich slurry, using specialised adhesives and vulcanisation. Final
+quality assurance involved spark testing, adhesion pull-off tests and thickness mapping to verify
+integrity and longevity.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+ <div class="col-lg-4 col-md-6 portfolio-item filter-structural-inspection">
+                <div class="card portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/Air Liquide Antennastructural Frame Design.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                     ELIKHULU SLURRY PIPELINES & LAUNDERS
+                    </h5>
+                    <p class="card-text">
+                      <span style="font-weight: bold">scope:</span>Protected Elikhulu’s slurry transport system. We dismantled existing
+pipelines and launders, prepared the internal surfaces with grit blasting and solvent cleaning
+and installed abrasion-resistant rubber linings with dovetail joints at flange areas to prevent
+delamination. The work covered over 1 km of pipework and multiple launders feeding to
+thickeners. Holiday testing and hydrostatic pressure tests ensured there were no defects or leaks
+before recommissioning.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item filter-rubber-lining"
+              >
+                <div class="card portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/Evander Gold Mine Workshop Building Structural Inspection.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      ELIKHULU THICKENER UNDERFLOW SUMPS & PUMP HOUSINGS
+                    </h5>
+                    <p class="card-text">
+                      <span style="font-weight: bold">scope:</span> Applied hard-rubber linings to the underflow sumps, feed wells and pump
+casings associated with Elikhulu’s thickeners. We performed high-pressure water jetting to
+remove scale and corrosion, followed by grit blasting and priming. Linings were custom‑fitted to
+complex geometries and cured on site using temperature-controlled methods. The use of
+elastomeric linings has significantly increased equipment life in high-abrasion zones and
+reduced maintenance downtime.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item filter-structural-steel-fabrication-welding"
+              >
+                <div class="card portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/Elikhulu Tank Steel Platform.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">ELIKHULU PREGNANT SOLUTION AND OVERFLOW TANKS</h5>
+                    <p class="card-text">
+                      <span style="font-weight: bold">scope:</span> Refurbished and lined the pregnant-solution tanks and overflow piping at Elikhulu. The
+project involved internal scaffolding, blasting to achieve a near‑white metal finish and
+installation of bromobutyl rubber linings resistant to cyanide-rich solutions. Welds and seams
+were carefully sealed, and spark testing ensured a continuous lining. External surfaces received
+a three‑coat epoxy system to comply with corrosivity category C5 coatings.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item filter-civil-works"
+              >
+                <div class="card portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/Sasol New Pipeline Unit Rubber Lining.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Sasol New Pipeline Unit Rubber Lining
+                    </h5>
+                    <p class="card-text">
+                      <span style="font-weight: bold">scope:</span> protected a new pipeline unit carrying aggressive chemicals. Our team
+performed surface preparation, selected appropriate lining materials and installed
+chemical‑resistant rubber linings inside pipelines, elbows and fittings. Adhesion promoters and
+tie‑coats were applied to ensure a robust bond, and spark testing was conducted to detect
+pinholes. The project extended the life of the pipeline system and reduced the risk of leaks and
+contamination.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-civil-works">
+                <div class="card portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/Eskom Cooling Towers Planned Maintenance.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Eskom Cooling Towers Planned Maintenance
+                    </h5>
+                    <p class="card-text">
+                      <span style="font-weight: bold">scope:</span> provided safe access and maintenance for cooling towers at a power
+station. We designed and erected modular scaffolding systems compliant with SANS 10085‑1,
+enabling inspection of tower internals and drift eliminators. The scope included dismantling and
+reinstallation of fill pack components, concrete repairs to tower shells and application of
+protective coatings. All work was scheduled during a short outage to minimise impact on power
+generation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-civil-works">
+                <div class="card portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/Air Liquide Antennastructural Frame Design.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Air Liquide Antenna Structural Frame Design
+                    </h5>
+                    <p class="card-text">
+                      <span style="font-weight: bold">scope:</span> designed and fabricated a new steel frame to support antennas at an Air Liquide
+facility. The scope involved structural analysis, detailed design in accordance with SANS 10162‑1,
+fabrication of steel sections and on‑site installation. Galvanising (SANS 121) and a three‑coat
+paint system were applied for corrosion protection. The project delivered a stable and
+long‑lasting structure for critical communication equipment.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Projects Container -->
+          </div>
+        </div>
+      </section>
+      <!-- End Projects Section -->
+
+      <!-- ======= Contact Us Section ======= -->
+      <section id="contact-us" class="contact-us section-bg">
+        <div class="container">
+          <div class="row justify-content-between gy-4">
+            <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+              <div class="content">
+                <h3>Let's work together.</h3>
+                <p>
+                  <i class="bi bi-telephone"></i>
+                  <span>+27-72-517-8337</span>
+                </p>
+                <p>
+                  <i class="bi bi-envelope"></i>
+                  <span>admin@jalenso.co.za</span>
+                </p>
+                <p>
+                  <i class="bi bi-geo-alt"></i>
+                  <span> 1928 Bradford Road, Evander, 2280</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-5" data-aos="fade">
+              <form
+                action="https://api.web3forms.com/submit"
+                method="post"
+                class="web3forms-web-mail php-email-form"
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="1422c9f1-8774-40c9-b707-559af9a68238"
+                />
+                <h3>Leave a message</h3>
+                <p>Leave us a message and we'll be in touch.</p>
+                <div class="row gy-3">
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="phone"
+                      placeholder="Phone"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your quote request has been sent successfully. Thank you!
+                    </div>
+
+                    <button type="submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Us Section -->
+
+      <!-- ======= Clients Portfolio Section ======= -->
+      <section class="clients-section">
+        <h2>Notable Client <span>Portfolio</span></h2>
+        <div class="client-logos slider">
+          <div class="slide">
+            <img src="./assets/img/client-logos/client-logo-1.png" />
+          </div>
+          <div class="slide">
+            <img src="./assets/img/client-logos/client-logo-2.png" />
+          </div>
+          <div class="slide">
+            <img src="./assets/img/client-logos/client-logo-3.png" />
+          </div>
+          <div class="slide">
+            <img src="./assets/img/client-logos/client-logo-4.png" />
+          </div>
+          <div class="slide">
+            <img src="./assets/img/client-logos/client-logo-5.png" />
+          </div>
+          <div class="slide">
+            <img src="./assets/img/client-logos/client-logo-6.png" />
+          </div>
+          <div class="slide">
+            <img src="./assets/img/client-logos/client-logo-7.png" />
+          </div>
+          <div class="slide">
+            <img src="./assets/img/client-logos/client-logo-8.png" />
+          </div>
+        </div>
+      </section>
+      <!-- ======= End Clients Portfolio Section ======= -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-content position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-info">
+                <a href="#" class="logo d-flex align-items-center">
+                  <img src="assets/img/logo.png" alt="" />
+                </a>
+                <p>
+                  <i class="bi bi-telephone"></i>
+                  <span>+27-72-517-8337</span>
+                </p>
+                <p>
+                  <i class="bi bi-envelope"></i>
+                  <span>admin@jalenso.co.za</span>
+                </p>
+                <p>
+                  <i class="bi bi-geo-alt"></i>
+                  <span>1928 Bradford Road, Evander, 2280</span>
+                </p>
+              </div>
+            </div>
+            <!-- End footer info column-->
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+              </ul>
+            </div>
+            <!-- End footer links column-->
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><a href="#services" ices>Rubber Lining & Corrosion Protection</a></li>
+                <li><a href="#services">Civil Works (Design, Build & Maintain)</a></li>
+                <li>
+                  <a href="#services">Electrical Works & Cable Rack Systems</a>
+                </li>
+                <li><a href="#services">Structural Steel Fabrication & Welding</a></li>
+                
+              </ul>
+            </div>
+            <!-- End footer links column-->
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Downloads</h4>
+              <ul>
+                <li>
+                  <a
+                    href="./assets/pdf/Jalenso Business Profile 2025-2026.pdf"
+                    target="_blank"
+                    title="Jalenso Business Profile 2025-2026"
+                    >Company Profile</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- End footer links column-->
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-legal text-center position-relative">
+        <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Jalenso</span></strong
+            >. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/jquery/jquery-3.7.1.min.js"></script>
+    <script src="assets/vendor/slick/slick.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Client logo carousel JS File -->
+    <script src="assets/js/client-logo-carousel.js"></script>
+  </body>
+</html>
